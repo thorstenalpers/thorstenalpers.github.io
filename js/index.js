@@ -1,4 +1,4 @@
-﻿	define(['angular-route', 'foo', 'jquery', 'bootstrap', 'particlesJS', 'typed', 'progressbarjs'], function (rou, ff, $, bootstr, undefParam, Typed, ProgressBar) {
+﻿	define(['angular-route', 'jquery', 'bootstrap', 'particlesJS', 'typed', 'progressbarjs'], function (rou, $, bootstr, undefParam, Typed, ProgressBar) {
 
 		// partciles.js
 		if ($("#particles-js").length) {

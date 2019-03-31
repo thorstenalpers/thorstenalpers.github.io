@@ -1,4 +1,4 @@
 //Load requirejs config, then load the app logic for a page.
 requirejs(['./require-config'], function (common) {
-    requirejs(['foo', 'index']);
+    requirejs(['index']);
 });

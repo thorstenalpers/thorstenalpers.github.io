@@ -1,5 +1,7 @@
 requirejs.config({
     
+/*     baseUrl: '../lib',
+ */
     /* define libraries to be loaded */
     paths: {
         'angular': '../lib/angular.js/angular',
@@ -26,7 +28,7 @@ requirejs.config({
             deps: ['jquery', 'bootstrap']
         },
         'index': {
-            deps: ['angular-route', 'foo', 'jquery', 'bootstrap', 'particlesJS', 'typed']
+            deps: ['angular-route', 'jquery', 'bootstrap', 'particlesJS', 'typed']
         },
         'foo': {
             deps: ['angular-resourse', 'angular', 'jquery', 'bootstrap']
