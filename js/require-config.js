@@ -29,9 +29,6 @@ requirejs.config({
         },
         'index': {
             deps: ['angular-route', 'jquery', 'bootstrap', 'particlesJS', 'typed']
-        },
-        'foo': {
-            deps: ['angular-resourse', 'angular', 'jquery', 'bootstrap']
         }
     }
 });
