@@ -1,0 +1,38 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "defaultDestination": "lib",
+  "libraries": [{
+      "library": "jquery@3.3.1",
+      "destination": "lib/jquery/"
+    },
+    {
+      "library": "twitter-bootstrap@4.3.1",
+      "destination": "lib/bootstrap/"
+    },
+    {
+      "library": "font-awesome@4.7.0",
+      "destination": "lib/font-awesome/"
+    },
+    {
+      "library": "require.js@2.3.6",
+      "destination": "lib/require.js/"
+    },
+    {
+      "library": "angular.js@1.7.8",
+      "destination": "lib/angular.js/"
+    },
+    {
+      "library": "particles.js@2.0.0",
+      "destination": "lib/particles.js/"
+    },
+    {
+      "library": "progressbar.js@1.0.1",
+      "destination": "lib/progressbar.js/"
+    },
+    {
+      "library": "typed.js@2.0.10",
+      "destination": "lib/typed.js/"
+    }
+  ]
+}

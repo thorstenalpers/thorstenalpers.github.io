@@ -1,0 +1,30 @@
+<!-- Used for google SEO indexing -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://thorstenalpers.github.io/</loc>
+  <lastmod>2019-03-25T12:31:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://thorstenalpers.github.io/index.html</loc>
+  <lastmod>2019-03-25T12:31:23+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://thorstenalpers.github.io/kenntnisse.html</loc>
+  <lastmod>2019-03-25T12:31:23+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+<url>
+  <loc>https://thorstenalpers.github.io/lebenslauf.html</loc>
+  <lastmod>2019-03-25T12:31:23+00:00</lastmod>
+  <priority>0.20</priority>
+</url>
+
+
+</urlset>
