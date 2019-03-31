@@ -62,8 +62,7 @@ typings/
 
 # next.js build output
 .next
-js/foo.js
-js/hello.ts
-tsconfig.json
-js/out/hello.js
 js/out/hello.js.map
+tsconfig.json
+js/hello.ts
+js/out/hello.js
