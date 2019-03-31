@@ -4,7 +4,15 @@ requirejs(['./require-config'], function (common) {
     function (rou, $, bootstr, undefParam, Typed, ProgressBar) {
     
         var app = angular.module('MyApp', ['ngRoute']);
-        app.config(function ($routeProvider) {
+
+        app.config( function ($locationProvider, $routeProvider) {
+           
+            $locationProvider.html5Mode({
+                enabled: true,
+                requireBase: false
+              });
+            $locationProvider.hashPrefix('');
+            
             $routeProvider
     
                 .when('/', {
@@ -34,7 +42,10 @@ requirejs(['./require-config'], function (common) {
                     redirectTo: '/'
                 });
         });
-    
+/*         app.config(['$locationProvider', function($locationProvider) {
+                        $locationProvider.hashPrefix('');
+                         $locationProvider.html5Mode(true);  
+                    }]); */
         // add an controller which sets the current navigation item to active
         app.controller('NavigationController', function ($scope, $location) {
             $scope.isActive = function (viewLocation) {
@@ -366,6 +377,8 @@ requirejs(['./require-config'], function (common) {
         angular.element(document).ready(function () {
             angular.bootstrap(document, [app.name]);
         });
+
+
         return app;
     });
 });
