@@ -1,0 +1,261 @@
+.img-responsive {
+  height: auto;
+  width: auto;
+  max-height: 140px;
+  border: solid 1px #808080;
+  border-radius: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.52);
+}
+.fa {
+  font-size: 32px;
+}
+.bg-darkblue {
+  color: #111C
+}
+
+
+.timeline .entry .title {
+  animation: FadeInLeftToRight 1s normal;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+
+.timeline .entry .body {
+  animation: FadeInRightToLeft 1s linear;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in;
+}
+
+@keyframes MakeVisible {
+  0% {
+    opacity: 0;
+    height: 0;
+  }
+
+  100% {
+    height: auto;
+    opacity: 1;
+  }
+}
+
+
+@keyframes FadeInLeftToRight {
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+    transform: translateX(-200px);
+  }
+
+  80% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0px);
+  }
+}
+
+@keyframes FadeInRightToLeft {
+
+  0% {
+    opacity: 0;
+    transform: scale(.1);
+    transform: translateX(200px);
+  }
+
+  80% {
+    opacity: 0.6;
+    transform: scale(1.05);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    transform: translateX(0px);
+  }
+}
+
+
+.timeline-work .entry:nth-child(1) .title {
+  animation-delay: 0s
+}
+
+.timeline-work .entry:nth-child(1) .body {
+  animation-delay: 0s
+}
+
+.timeline-work .entry:nth-child(2) .title {
+  animation-delay: 1s
+}
+
+.timeline-work .entry:nth-child(2) .body {
+  animation-delay: 1s
+}
+
+.timeline-work .entry:nth-child(3) .title {
+  animation-delay: 2s
+}
+
+.timeline-work .entry:nth-child(3) .body {
+  animation-delay: 2s
+}
+
+.timeline-work .entry:nth-child(4) .title {
+  animation-delay: 3s
+}
+
+.timeline-work .entry:nth-child(4) .body {
+  animation-delay: 3s
+}
+
+.timeline-work .entry:nth-child(5) .title {
+  animation-delay: 4s
+}
+
+.timeline-work .entry:nth-child(5) .body {
+  animation-delay: 4s
+}
+
+.timeline-education .entry:nth-child(1) .title {
+  animation-delay: 5s
+}
+
+.timeline-education .entry:nth-child(1) .body {
+  animation-delay: 5s
+}
+
+.timeline-education .entry:nth-child(2) .title {
+  animation-delay: 6s
+}
+
+.timeline-education .entry:nth-child(2) .body {
+  animation-delay: 6s
+}
+
+.timeline-education .entry:nth-child(3) .title {
+  animation-delay: 7s
+}
+
+.timeline-education .entry:nth-child(3) .body {
+  animation-delay: 7s
+}
+
+
+.timeline-heading {
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+
+.timeline-heading>h3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.timeline-heading>span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.timeline-work {
+  background: #FDFDFD;
+}
+
+.timeline-education {
+  background: #FAFAFA;
+}
+
+.timeline {
+  width: 100%;
+  padding: 40px 10px;
+  position: relative;
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2);
+  z-index: -1;
+}
+
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: calc(33% + 15px);
+  bottom: 0px;
+  width: 4px;
+  background: #DDD;
+}
+
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.entry {
+  clear: both;
+  text-align: left;
+  position: relative;
+}
+
+.entry .title {
+  margin-bottom: .5em;
+  float: left;
+  width: 33%;
+  padding-right: 30px;
+  text-align: right;
+  position: relative;
+  /*circles*/
+}
+
+.entry .title:after {
+  content: '';
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  right: -20.5px;
+  border: 3px solid #222;
+  background: white;
+  top: 5px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.entry .title h3 {
+  margin: 0;
+  font-size: 120%;
+}
+
+.entry .title p {
+  margin: 0;
+  font-size: 100%;
+}
+
+.entry .body {
+  margin: 0 0 3em;
+  float: right;
+  width: 66%;
+  padding-left: 30px;
+}
+
+.entry .body p {
+  line-height: 1.4em;
+}
+
+.entry .body p:first-child {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.entry .body ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.entry .body ul li:before {
+  content: "–";
+  margin-right: .5em;
+}
