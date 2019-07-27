@@ -1,0 +1,23 @@
+.big-text {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#particles-text {
+  position: absolute;
+  transform: translate(0%, 100%);
+  width: 100%;
+  padding: 2em 3em;
+}
+
+
+#particles-js {
+  z-index: -1 !important;
+  min-height: 500px;
+  max-height: 600px;
+  background: white;
+}
+
+canvas {
+  display: block;
+}
