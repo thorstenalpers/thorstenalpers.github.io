@@ -1,0 +1,29 @@
+
+.navbar-nav>li {
+  float: left;
+  position: relative;
+}
+
+.navbar-light .navbar-nav .active a::after {
+  border-bottom: 3px solid #000000;
+  bottom: -5px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #FFF 0%, #DDD1 50%, #FFF 100%),
+    linear-gradient(to top, #FFF 0%, #ddd8 50%, #FFF 100%);
+}
+
+.nav-item>.nav-link.active-link {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar {
+  z-index: 99;
+  padding-left: 0px;
+}

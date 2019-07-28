@@ -1,0 +1,25 @@
+{
+    "typedConfig": {
+        "strings": [
+            "Thorsten Alpers.",
+            "ein Fullstack .NET Softwareentwickler.",
+            "ein Softwarearchitekt."
+        ],
+        "stringsElement": null,
+        "typeSpeed": 110,
+        "startDelay": 100,
+        "backSpeed": 100,
+        "smartBackspace": false,
+        "shuffle": false,
+        "backDelay": 700,
+        "fadeOut": false,
+        "fadeOutClass": "typed-fade-out",
+        "loop": true,
+        "showCursor": true,
+        "cursorChar": "|",
+        "autoInsertCss": true,
+        "attr": null,
+        "bindInputFocusEvents": false,
+        "contentType": "html"
+    }
+}
