@@ -1,0 +1,1 @@
+var e={name:`Thorsten Alpers`,tagline:`An excellent full-stack software developer and architect.`,description:`Homepage of Thorsten Alpers`,origin:`https://thorstenalpers.github.io`,linkedIn:`https://de.linkedin.com/in/thorsten-alpers-6952a0126`,gitHub:`https://github.com/thorstenalpers`};export{e as t};
