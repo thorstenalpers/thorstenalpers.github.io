@@ -1,0 +1,26 @@
+{
+  "name": "Thorsten Alpers - Fullstack Software Architect",
+  "short_name": "Thorsten Alpers",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0a0a0a",
+  "description": "Homepage of Thorsten Alpers, an excellent Fullstack Software Architect and Developer.",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "16x16 32x32"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+var e=`/assets/hamburg-BWAH-lqg.bin`,t=typeof document>`u`?null:fetch(e).then(e=>{if(!e.ok)throw Error(`City data: HTTP ${e.status}`);return e.arrayBuffer()}).then(e=>(performance.mark(`hero: data downloaded`),e));export{e as n,t};

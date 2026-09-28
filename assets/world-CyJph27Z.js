@@ -1,0 +1,1 @@
+import{t as e}from"./loader-CcyLudOn.js";var t=e&&n(e);function n(e){return new Promise((t,n)=>{let r=new Worker(new URL(`/assets/world.worker-B1FHpLyk.js`,``+import.meta.url),{type:`module`});r.addEventListener(`message`,e=>{performance.mark(`hero: city built`),t(e.data),r.terminate()},{once:!0}),r.addEventListener(`error`,n,{once:!0}),e.then(e=>r.postMessage(e),n)})}export{t};

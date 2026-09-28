@@ -1,0 +1,1 @@
+import{b as e,f as t,m as n,x as r}from"./city-VyeHDDhb.js";var i=e=>Object.fromEntries(Object.entries(e.attributes).map(([e,t])=>[e,t.array]));function a(){let a=n(),o=r(t);return{city:{attributes:i(a.geometry),rooftops:a.rooftops},water:i(o.geometry),quays:i(o.quays),trees:e(9e3)}}export{a as buildWorld};
